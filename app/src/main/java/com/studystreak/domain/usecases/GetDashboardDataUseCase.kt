@@ -67,6 +67,9 @@ class GetDashboardDataUseCase @Inject constructor(
             val completedCount = completedIds.size
             val percentage = if (totalHabits > 0) completedCount.toFloat() / totalHabits else 0f
 
+            @Suppress("UNCHECKED_CAST")
+            val upcomingExamsList = exams as List<ExamEntity>
+
             DashboardData(
                 greeting = DateUtils.getGreeting(),
                 userName = stats?.userName ?: "Student",
@@ -77,8 +80,7 @@ class GetDashboardDataUseCase @Inject constructor(
                 bestStreak = stats?.bestStreak ?: 0,
                 todayStudyTimeMs = todayStudy,
                 weeklyStudyTimeMs = weeklyStudy,
-                @Suppress("UNCHECKED_CAST")
-                upcomingExams = exams as List<ExamEntity>,
+                upcomingExams = upcomingExamsList,
                 pendingAssignmentsCount = pendingCount,
                 totalXp = stats?.totalXp ?: 0,
                 currentLevel = stats?.currentLevel ?: 1,
