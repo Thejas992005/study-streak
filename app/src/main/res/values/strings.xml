@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">StudyStreak</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_habits">Habits</string>
+    <string name="nav_study">Study</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Habit Categories -->
+    <string name="category_study">Study</string>
+    <string name="category_coding">Coding</string>
+    <string name="category_reading">Reading</string>
+    <string name="category_fitness">Fitness</string>
+    <string name="category_sleep">Sleep</string>
+    <string name="category_custom">Custom</string>
+
+    <!-- Priorities -->
+    <string name="priority_low">Low</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_high">High</string>
+
+    <!-- Statuses -->
+    <string name="status_pending">Pending</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_overdue">Overdue</string>
+
+    <!-- Subjects -->
+    <string name="subject_mathematics">Mathematics</string>
+    <string name="subject_physics">Physics</string>
+    <string name="subject_chemistry">Chemistry</string>
+    <string name="subject_computer_science">Computer Science</string>
+    <string name="subject_custom">Custom</string>
+
+    <!-- Levels -->
+    <string name="level_1">Beginner</string>
+    <string name="level_2">Consistent Learner</string>
+    <string name="level_3">Focused Student</string>
+    <string name="level_4">Study Warrior</string>
+    <string name="level_5">Academic Master</string>
+
+    <!-- Notification Channels -->
+    <string name="channel_habit_reminders">Habit Reminders</string>
+    <string name="channel_study_reminders">Study Reminders</string>
+    <string name="channel_assignment_reminders">Assignment Reminders</string>
+    <string name="channel_exam_reminders">Exam Reminders</string>
+    <string name="channel_streak_protection">Streak Protection</string>
+
+    <!-- General -->
+    <string name="add_habit">Add Habit</string>
+    <string name="edit_habit">Edit Habit</string>
+    <string name="add_assignment">Add Assignment</string>
+    <string name="add_exam">Add Exam</string>
+    <string name="mark_complete">Mark Complete</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="settings">Settings</string>
+</resources>
